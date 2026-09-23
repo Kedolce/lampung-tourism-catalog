@@ -1,0 +1,25 @@
+    # Node packages
+    node_modules/
+
+    # Environment
+    .env
+    .env.local
+
+    # npm logs
+    npm-debug.log*
+
+    # OS files
+    .DS_Store
+    Thumbs.db
+    desktop.ini
+
+    # VS Code personal settings
+    .vscode/settings.json
+    .vscode/tasks.json
+    .vscode/launch.json
+
+    # Temporary files
+    *.tmp
+    *.temp
+
+    note.txt
