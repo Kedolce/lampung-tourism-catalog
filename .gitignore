@@ -1,25 +1,30 @@
-    # Node packages
-    node_modules/
+# Node packages
+node_modules/
 
-    # Environment
-    .env
-    .env.local
+# Environment
+.env
+.env.local
 
-    # npm logs
-    npm-debug.log*
+# PostgreSQL backup
+*.backup
+laragon-export.sql
 
-    # OS files
-    .DS_Store
-    Thumbs.db
-    desktop.ini
+# npm logs
+npm-debug.log*
 
-    # VS Code personal settings
-    .vscode/settings.json
-    .vscode/tasks.json
-    .vscode/launch.json
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
 
-    # Temporary files
-    *.tmp
-    *.temp
+# VS Code personal settings
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
 
-    note.txt
+# Temporary files
+*.tmp
+*.temp
+
+# Personal notes
+note.txt
